@@ -1,3 +1,4 @@
+
 # Carguemos los datos
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -27,3 +28,5 @@ plt.show()
 # Top10 de contribuyentes
 cpython["author"].value_counts().head(10).plot(kind = "barh", color = "skyblue")
 plt.gca().invert_yaxis()
+
+#Esta celda es desde KAGGLE
